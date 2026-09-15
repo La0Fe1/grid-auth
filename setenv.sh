@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# AGENTS.md 0.1：运行任何脚本前先 `source setenv.sh`，
-# 把所有缓存/临时文件重定向到项目内目录，禁止散落到用户主目录/系统临时目录。
-ROOT="C:/Users/佬肥/PycharmProjects/project-grid-gnn"
+# 缓存/临时文件重定向到仓库内（AGENTS.md 0.1）。
+# 仓库根目录自动检测（不依赖绝对路径）。
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-mkdir -p "$ROOT/.tmp" "$ROOT/.cache" "$ROOT/.cache/matplotlib" "$ROOT/.cache/cuda" "$ROOT/.cache/pycache" "$ROOT/.cache/pip" "$ROOT/.logs"
+mkdir -p "$ROOT/.tmp" "$ROOT/.cache" "$ROOT/.cache/matplotlib" "$ROOT/.cache/cuda" "$ROOT/.cache/pycache" "$ROOT/.logs"
 
 export TMPDIR="$ROOT/.tmp"
 export TEMP="$ROOT/.tmp"
@@ -15,5 +15,5 @@ export TORCH_HOME="$ROOT/.cache"
 export MPLCONFIGDIR="$ROOT/.cache/matplotlib"
 export CUDA_CACHE_PATH="$ROOT/.cache/cuda"
 export PYTHONPYCACHEPREFIX="$ROOT/.cache/pycache"
-export PIP_CACHE_DIR="$ROOT/.cache/pip"
 export PYTHONIOENCODING=utf-8
+export PIP_CACHE_DIR="$ROOT/.cache/pip"

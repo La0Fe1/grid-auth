@@ -1,0 +1,30 @@
+{
+  "n_cases": 1104,
+  "seeds_covered": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "summary": {
+    "nominal": {
+      "false_pass_rate": 0.16939890710382513,
+      "false_reject_rate": 0.0,
+      "passed": 366,
+      "rejected": 738
+    },
+    "interval": {
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.23371647509578544,
+      "passed": 60,
+      "rejected": 1044
+    },
+    "mc": {
+      "false_pass_rate": 0.0379746835443038,
+      "false_reject_rate": 0.0,
+      "passed": 316,
+      "rejected": 788
+    }
+  }
+}

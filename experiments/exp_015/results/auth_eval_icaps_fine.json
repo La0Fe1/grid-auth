@@ -1,0 +1,98 @@
+{
+  "args": {
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      1.2,
+      1.5,
+      2.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "out": "experiments/exp_015/results/auth_eval_icaps_fine.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": null,
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "gt_eps": null,
+    "gt_margin": null,
+    "require_connected": false,
+    "theta_cap": null,
+    "lines_file": null,
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "l2rpn_icaps_2021",
+    "test_mode": true,
+    "gt_dist": "uniform",
+    "missing_frac": 0.0,
+    "resume": true,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 1367,
+      "rejected": 0,
+      "false_pass_rate": 0.7805413313825896,
+      "mean_danger_when_passed": 0.6125896122896849,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 498,
+      "rejected": 869,
+      "false_pass_rate": 0.39759036144578314,
+      "mean_danger_when_passed": 0.06712449799196787,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "interval": {
+      "passed": 76,
+      "rejected": 1291,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.1735089078233927,
+      "latency_ms_mean": 0.0
+    },
+    "mc": {
+      "passed": 334,
+      "rejected": 1033,
+      "false_pass_rate": 0.11377245508982035,
+      "mean_danger_when_passed": 0.00016766467065868274,
+      "false_reject_rate": 0.003872216844143272,
+      "latency_ms_mean": 0.0
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.06577011494252875,
+      "interval": 0.0,
+      "mc": 6.920415224913495e-05
+    },
+    "300": {
+      "nominal": 0.0656858237547893,
+      "interval": 0.0,
+      "mc": 0.0001384083044982699
+    },
+    "1000": {
+      "nominal": 0.06492643678160921,
+      "interval": 0.0,
+      "mc": 0.00017647058823529424
+    },
+    "_partial": "\u6062\u590d\u6a21\u5f0f\u4e0b\u6536\u655b\u66f2\u7ebf\u4ec5\u8986\u76d6\u672c\u6b21\u65b0\u589e\u7528\u4f8b"
+  },
+  "n_cases": 1367,
+  "elapsed_seconds": 409.5
+}

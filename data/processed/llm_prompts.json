@@ -1,0 +1,102 @@
+[
+  {
+    "state_id": 0,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.85, connected), line 4 (rho=0.78, connected), line 17 (rho=0.62, connected), line 8 (rho=0.58, connected), line 11 (rho=0.53, connected), line 0 (rho=0.43, connected), line 3 (rho=0.40, connected), line 14 (rho=0.39, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 1,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.86, connected), line 4 (rho=0.82, connected), line 17 (rho=0.68, connected), line 8 (rho=0.59, connected), line 11 (rho=0.56, connected), line 0 (rho=0.46, connected), line 3 (rho=0.42, connected), line 1 (rho=0.38, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 2,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.78, connected), line 9 (rho=0.74, connected), line 17 (rho=0.69, connected), line 11 (rho=0.52, connected), line 8 (rho=0.51, connected), line 0 (rho=0.39, connected), line 3 (rho=0.39, connected), line 1 (rho=0.35, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 3,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.92, connected), line 4 (rho=0.69, connected), line 8 (rho=0.63, connected), line 11 (rho=0.58, connected), line 0 (rho=0.45, connected), line 17 (rho=0.45, connected), line 14 (rho=0.43, connected), line 12 (rho=0.42, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 4,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 17 (rho=1.07, connected), line 4 (rho=0.96, connected), line 9 (rho=0.88, connected), line 11 (rho=0.78, connected), line 10 (rho=0.74, connected), line 8 (rho=0.61, connected), line 0 (rho=0.49, connected), line 3 (rho=0.46, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 5,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.85, connected), line 17 (rho=0.83, connected), line 9 (rho=0.73, connected), line 11 (rho=0.62, connected), line 8 (rho=0.51, connected), line 0 (rho=0.48, connected), line 3 (rho=0.42, connected), line 1 (rho=0.40, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 6,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.92, connected), line 17 (rho=0.91, connected), line 9 (rho=0.84, connected), line 11 (rho=0.65, connected), line 8 (rho=0.57, connected), line 0 (rho=0.48, connected), line 10 (rho=0.47, connected), line 3 (rho=0.45, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 7,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.95, connected), line 4 (rho=0.72, connected), line 8 (rho=0.63, connected), line 11 (rho=0.54, connected), line 14 (rho=0.48, connected), line 12 (rho=0.48, connected), line 0 (rho=0.46, connected), line 7 (rho=0.46, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 8,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.90, connected), line 4 (rho=0.81, connected), line 17 (rho=0.69, connected), line 11 (rho=0.65, connected), line 8 (rho=0.62, connected), line 0 (rho=0.46, connected), line 3 (rho=0.41, connected), line 14 (rho=0.39, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 9,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.69, connected), line 4 (rho=0.66, connected), line 17 (rho=0.51, connected), line 8 (rho=0.45, connected), line 11 (rho=0.45, connected), line 0 (rho=0.36, connected), line 14 (rho=0.35, connected), line 3 (rho=0.34, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 10,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.82, connected), line 9 (rho=0.79, connected), line 17 (rho=0.72, connected), line 11 (rho=0.57, connected), line 8 (rho=0.55, connected), line 0 (rho=0.47, connected), line 3 (rho=0.41, connected), line 1 (rho=0.39, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 11,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=1.04, connected), line 8 (rho=0.68, connected), line 4 (rho=0.66, connected), line 12 (rho=0.59, connected), line 10 (rho=0.56, connected), line 7 (rho=0.53, connected), line 14 (rho=0.53, connected), line 11 (rho=0.49, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 12,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.74, connected), line 4 (rho=0.51, connected), line 8 (rho=0.47, connected), line 10 (rho=0.46, connected), line 12 (rho=0.44, connected), line 14 (rho=0.42, connected), line 11 (rho=0.42, connected), line 7 (rho=0.39, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 13,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.75, connected), line 4 (rho=0.63, connected), line 11 (rho=0.54, connected), line 8 (rho=0.50, connected), line 17 (rho=0.45, connected), line 14 (rho=0.38, connected), line 0 (rho=0.37, connected), line 12 (rho=0.34, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 14,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.91, connected), line 9 (rho=0.89, connected), line 17 (rho=0.87, connected), line 8 (rho=0.61, connected), line 11 (rho=0.60, connected), line 0 (rho=0.47, connected), line 3 (rho=0.45, connected), line 1 (rho=0.42, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 15,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 17 (rho=0.93, connected), line 4 (rho=0.92, connected), line 9 (rho=0.90, connected), line 11 (rho=0.78, connected), line 8 (rho=0.62, connected), line 10 (rho=0.60, connected), line 0 (rho=0.50, connected), line 3 (rho=0.45, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 16,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.75, connected), line 10 (rho=0.49, connected), line 8 (rho=0.49, connected), line 4 (rho=0.47, connected), line 12 (rho=0.45, connected), line 14 (rho=0.42, connected), line 11 (rho=0.41, connected), line 7 (rho=0.40, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 17,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.81, connected), line 10 (rho=0.64, connected), line 8 (rho=0.51, connected), line 12 (rho=0.49, connected), line 14 (rho=0.46, connected), line 11 (rho=0.44, connected), line 7 (rho=0.44, connected), line 4 (rho=0.43, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 18,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 4 (rho=0.89, connected), line 9 (rho=0.86, connected), line 17 (rho=0.77, connected), line 11 (rho=0.59, connected), line 8 (rho=0.59, connected), line 0 (rho=0.49, connected), line 3 (rho=0.45, connected), line 1 (rho=0.41, connected). Propose disconnections to relieve overloads."
+  },
+  {
+    "state_id": 19,
+    "system": "You are a power grid operator assistant. Given a summary of the current grid state, propose topology actions to relieve line overloads. Actions are line disconnections only. You MUST NOT disconnect a line if doing so would overload any other line. Reply with JSON only: {\"actions\": [line_id, ...]} where line_id is an integer; empty list means no action.",
+    "user": "Grid state summary \u2014 most loaded lines: line 9 (rho=0.89, connected), line 4 (rho=0.86, connected), line 17 (rho=0.86, connected), line 11 (rho=0.67, connected), line 8 (rho=0.61, connected), line 10 (rho=0.55, connected), line 0 (rho=0.46, connected), line 3 (rho=0.42, connected). Propose disconnections to relieve overloads."
+  }
+]

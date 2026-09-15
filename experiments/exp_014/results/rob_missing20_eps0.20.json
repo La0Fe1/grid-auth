@@ -1,0 +1,97 @@
+{
+  "args": {
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "out": "experiments/exp_014/results/rob_missing20_eps0.20.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": null,
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "gt_eps": 0.2,
+    "gt_margin": 0.05,
+    "require_connected": false,
+    "theta_cap": null,
+    "lines_file": null,
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "rte_case14_realistic",
+    "test_mode": false,
+    "gt_dist": "uniform",
+    "missing_frac": 0.2,
+    "resume": false,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 3000,
+      "rejected": 0,
+      "false_pass_rate": 0.35433333333333333,
+      "mean_danger_when_passed": 0.2494063333333337,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 695,
+      "rejected": 805,
+      "false_pass_rate": 0.3712230215827338,
+      "mean_danger_when_passed": 0.07569208633093527,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0538934071858724
+    },
+    "interval": {
+      "passed": 390,
+      "rejected": 1110,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.04234234234234234,
+      "latency_ms_mean": 27.948243935902912
+    },
+    "mc": {
+      "passed": 450,
+      "rejected": 1050,
+      "false_pass_rate": 0.03111111111111111,
+      "mean_danger_when_passed": 0.0002177777777777778,
+      "false_reject_rate": 0.0009523809523809524,
+      "latency_ms_mean": 1.5209527015686035
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.07646043165467625,
+      "interval": 0.0,
+      "mc": 0.00019999999999999998
+    },
+    "300": {
+      "nominal": 0.07523741007194247,
+      "interval": 0.0,
+      "mc": 0.00014814814814814815
+    },
+    "1000": {
+      "nominal": 0.07569208633093527,
+      "interval": 0.0,
+      "mc": 0.0002177777777777778
+    }
+  },
+  "n_cases": 1500,
+  "elapsed_seconds": 145.3
+}

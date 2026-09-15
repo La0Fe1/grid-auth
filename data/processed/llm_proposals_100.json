@@ -1,0 +1,528 @@
+{
+  "protocol": {
+    "model": "deepseek-chat",
+    "generated_by": "llm-chat MCP (Claude Code agent)",
+    "date": "2026-09-14",
+    "prompt_variant": "verifier-aware (system: proposals will be checked by an automatic verification layer)",
+    "n_states": 100,
+    "n_active": 46,
+    "note": "46/100 \u72b6\u6001\u63d0\u51fa\u52a8\u4f5c\uff08\u884c\u52a8\u7387 46%\uff09\uff1b\u4fdd\u5b88\u63d0\u793a\u8bcd\u4e0b 20/20 \u51bb\u7ed3\uff08llm_proposals.json\uff09"
+  },
+  "proposals": [
+    {
+      "state_id": 0,
+      "verifier_aware": [
+        9,
+        4
+      ]
+    },
+    {
+      "state_id": 1,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 2,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 3,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 4,
+      "verifier_aware": [
+        17
+      ]
+    },
+    {
+      "state_id": 5,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 6,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 7,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 8,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 9,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 10,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 11,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 12,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 13,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 14,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 15,
+      "verifier_aware": [
+        17,
+        4
+      ]
+    },
+    {
+      "state_id": 16,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 17,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 18,
+      "verifier_aware": [
+        4,
+        9
+      ]
+    },
+    {
+      "state_id": 19,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 20,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 21,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 22,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 23,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 24,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 25,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 26,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 27,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 28,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 29,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 30,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 31,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 32,
+      "verifier_aware": [
+        17,
+        4
+      ]
+    },
+    {
+      "state_id": 33,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 34,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 35,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 36,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 37,
+      "verifier_aware": [
+        4
+      ]
+    },
+    {
+      "state_id": 38,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 39,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 40,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 41,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 42,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 43,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 44,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 45,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 46,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 47,
+      "verifier_aware": [
+        4
+      ]
+    },
+    {
+      "state_id": 48,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 49,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 50,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 51,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 52,
+      "verifier_aware": [
+        17
+      ]
+    },
+    {
+      "state_id": 53,
+      "verifier_aware": [
+        17
+      ]
+    },
+    {
+      "state_id": 54,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 55,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 56,
+      "verifier_aware": [
+        17
+      ]
+    },
+    {
+      "state_id": 57,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 58,
+      "verifier_aware": [
+        4,
+        9
+      ]
+    },
+    {
+      "state_id": 59,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 60,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 61,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 62,
+      "verifier_aware": [
+        9,
+        4
+      ]
+    },
+    {
+      "state_id": 63,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 64,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 65,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 66,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 67,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 68,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 69,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 70,
+      "verifier_aware": [
+        17,
+        4
+      ]
+    },
+    {
+      "state_id": 71,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 72,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 73,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 74,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 75,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 76,
+      "verifier_aware": [
+        4,
+        9
+      ]
+    },
+    {
+      "state_id": 77,
+      "verifier_aware": [
+        9,
+        4
+      ]
+    },
+    {
+      "state_id": 78,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 79,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 80,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 81,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 82,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 83,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 84,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 85,
+      "verifier_aware": [
+        11,
+        8
+      ]
+    },
+    {
+      "state_id": 86,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 87,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 88,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 89,
+      "verifier_aware": [
+        17,
+        4
+      ]
+    },
+    {
+      "state_id": 90,
+      "verifier_aware": [
+        9,
+        4
+      ]
+    },
+    {
+      "state_id": 91,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    },
+    {
+      "state_id": 92,
+      "verifier_aware": [
+        4,
+        9
+      ]
+    },
+    {
+      "state_id": 93,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 94,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 95,
+      "verifier_aware": [
+        9
+      ]
+    },
+    {
+      "state_id": 96,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 97,
+      "verifier_aware": [
+        9,
+        4
+      ]
+    },
+    {
+      "state_id": 98,
+      "verifier_aware": []
+    },
+    {
+      "state_id": 99,
+      "verifier_aware": [
+        4,
+        17
+      ]
+    }
+  ]
+}

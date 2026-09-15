@@ -1,0 +1,94 @@
+{
+  "args": {
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "out": "experiments/exp_013/results/abl_+connectivity+theta.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": null,
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "require_connected": true,
+    "theta_cap": 0.3,
+    "lines_file": null,
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "rte_case14_realistic",
+    "gt_dist": "uniform",
+    "missing_frac": 0.0,
+    "resume": false,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 3000,
+      "rejected": 0,
+      "false_pass_rate": 0.327,
+      "mean_danger_when_passed": 0.25845533333333337,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 0,
+      "rejected": 1500,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.346,
+      "latency_ms_mean": 0.07097784678141277
+    },
+    "interval": {
+      "passed": 0,
+      "rejected": 1500,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.346,
+      "latency_ms_mean": 28.536970456441246
+    },
+    "mc": {
+      "passed": 0,
+      "rejected": 1500,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.346,
+      "latency_ms_mean": 1.7744207382202148
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.0,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "300": {
+      "nominal": 0.0,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "1000": {
+      "nominal": 0.0,
+      "interval": 0.0,
+      "mc": 0.0
+    }
+  },
+  "n_cases": 1500,
+  "elapsed_seconds": 175.3
+}

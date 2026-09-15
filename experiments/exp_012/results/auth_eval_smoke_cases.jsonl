@@ -1,0 +1,10 @@
+{"seed": 0, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.59, "gt_max_ratio": 1.1250374058649046}
+{"seed": 0, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.84, "gt_max_ratio": 1.1874829630815913}
+{"seed": 1, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.53, "gt_max_ratio": 1.1327280216266722}
+{"seed": 1, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.84, "gt_max_ratio": 1.2062841516122327}
+{"seed": 2, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.59, "gt_max_ratio": 1.11543060826402}
+{"seed": 2, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.85, "gt_max_ratio": 1.1893390179799355}
+{"seed": 3, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.47, "gt_max_ratio": 1.1215427119174188}
+{"seed": 3, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.9, "gt_max_ratio": 1.1890248850299778}
+{"seed": 4, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.55, "gt_max_ratio": 1.0988661905025081}
+{"seed": 4, "line": 9, "lambda": 3.0, "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.78, "gt_max_ratio": 1.2002571970554077}

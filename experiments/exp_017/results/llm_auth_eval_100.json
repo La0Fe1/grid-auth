@@ -1,0 +1,106 @@
+{
+  "args": {
+    "n_states": 100,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "mc_k": 100,
+    "gt_m": 5000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000,
+      5000
+    ],
+    "out": "experiments/exp_017/results/llm_auth_eval_100.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": "data/processed/llm_proposals_100.json",
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "gt_eps": null,
+    "gt_margin": null,
+    "require_connected": false,
+    "theta_cap": null,
+    "lines_file": null,
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "rte_case14_realistic",
+    "test_mode": false,
+    "gt_dist": "uniform",
+    "missing_frac": 0.0,
+    "resume": true,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 1150,
+      "rejected": 0,
+      "false_pass_rate": 0.6,
+      "mean_danger_when_passed": 0.5133513043478262,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 550,
+      "rejected": 600,
+      "false_pass_rate": 0.16363636363636364,
+      "mean_danger_when_passed": 0.0344549090909091,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.05147726639457371
+    },
+    "interval": {
+      "passed": 460,
+      "rejected": 690,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 27.468387976936672
+    },
+    "mc": {
+      "passed": 463,
+      "rejected": 687,
+      "false_pass_rate": 0.0064794816414686825,
+      "mean_danger_when_passed": 3.239740820734341e-05,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 1.978719130806301
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.034127272727272714,
+      "interval": 0.0,
+      "mc": 6.479481641468682e-05
+    },
+    "300": {
+      "nominal": 0.035048484848484864,
+      "interval": 0.0,
+      "mc": 4.3196544276457885e-05
+    },
+    "1000": {
+      "nominal": 0.034458181818181825,
+      "interval": 0.0,
+      "mc": 3.455723542116631e-05
+    },
+    "5000": {
+      "nominal": 0.0344549090909091,
+      "interval": 0.0,
+      "mc": 3.239740820734341e-05
+    },
+    "_partial": "\u6062\u590d\u6a21\u5f0f\u4e0b\u6536\u655b\u66f2\u7ebf\u4ec5\u8986\u76d6\u672c\u6b21\u65b0\u589e\u7528\u4f8b"
+  },
+  "n_cases": 1150,
+  "elapsed_seconds": 389.3
+}

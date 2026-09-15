@@ -1,0 +1,300 @@
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [8], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6454897570226885}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.559, "gt_max_ratio": 1.117813859169981}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.630212971145378}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [16, 4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.608625007135817}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [16, 4], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.366, "gt_max_ratio": 1.1147707532735163}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [16, 4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.5895556262457768}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6771101706661651}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.702, "gt_max_ratio": 1.1947427870868976}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6794365378669116}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.700640899943882}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.942, "gt_max_ratio": 1.2629560620402067}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7886243526759495}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8058708214129421}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.995, "gt_max_ratio": 1.2281203048841236}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7000980329178306}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [10, 3], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7644629077226769}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [10, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.93, "gt_max_ratio": 1.1706734702901496}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [10, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.582761492535008}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [5, 12, 16], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6821341180558451}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [5, 12, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.818, "gt_max_ratio": 1.22933063444749}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [5, 12, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.748887543366274}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [6, 7, 16], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8192178561625078}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [6, 7, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4148982687136986}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [6, 7, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.000087274183806}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [1, 0, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [1, 0, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [1, 0, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6235409011655478}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.363, "gt_max_ratio": 1.0937912238873952}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.5463515149730664}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [12, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [12, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [12, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [9, 8], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7539853291187798}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [9, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.982, "gt_max_ratio": 1.291664352994213}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [9, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.882363389367978}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [15, 0, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [15, 0, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [15, 0, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [11], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.587030498136907}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [11], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.13, "gt_max_ratio": 1.0436423991013786}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [11], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4885341510416337}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6346035595891028}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [4], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.462, "gt_max_ratio": 1.1420720060048757}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6284091362740338}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7325202761035403}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.986, "gt_max_ratio": 1.2905207672341628}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8496490375247756}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [8, 6, 19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6404354362140859}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [8, 6, 19], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.428, "gt_max_ratio": 1.0971302589370573}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [8, 6, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.599535241843068}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [0, 10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8734456183771803}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [0, 10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.554437417977912}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [0, 10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.173555238020958}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [19, 14, 1], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.216, "gt_max_ratio": 1.064987473479841}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [19, 14, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.852283788722909}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [19, 14, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.62325119459441}
+{"seed": 0, "tag": "random", "lambda": 2.0, "disconnects": [7, 13, 14], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7042264370530374}
+{"seed": 0, "tag": "random", "lambda": 3.0, "disconnects": [7, 13, 14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.921, "gt_max_ratio": 1.2415792836164075}
+{"seed": 0, "tag": "random", "lambda": 4.0, "disconnects": [7, 13, 14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7957150342554378}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [15, 10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6417508582665917}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [15, 10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.552, "gt_max_ratio": 1.1388069018265685}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [15, 10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6169987295141621}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [9, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [9, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [9, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5299178658075762}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [4], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.9425665489050559}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3679860448840935}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [3, 19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8023687610910075}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [3, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.991, "gt_max_ratio": 1.2655082395703179}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [3, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7450669190914725}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [15, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [15, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [15, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [11, 14, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [11, 14, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [11, 14, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [15, 18, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [15, 18, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [15, 18, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [6, 15], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7994760217435021}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [6, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4159698262303588}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [6, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.0071269217459493}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [7], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5532539468893543}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [7], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.008, "gt_max_ratio": 0.9748698940534063}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [7], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4183838057995581}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [8, 5, 15], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6882115477248194}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [8, 5, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.693, "gt_max_ratio": 1.1896674857218215}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [8, 5, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6964195190606568}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [9, 17, 16], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7414070910338694}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [9, 17, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.989, "gt_max_ratio": 1.3250508852967993}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [9, 17, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.9141547168874447}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [1], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8055662780303262}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4269075235457638}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.036706282165908}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6462916527458915}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.66, "gt_max_ratio": 1.166554535956702}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.671629317685025}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [2, 17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7386149999401654}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [2, 17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.751, "gt_max_ratio": 1.1359400938163198}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [2, 17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6850606562669013}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [14, 5, 0], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.35, "gt_max_ratio": 1.0923834797273393}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [14, 5, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8856973202611744}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [14, 5, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.72035551738802}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [6, 13], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6368661351255974}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [6, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.513, "gt_max_ratio": 1.1246084905760751}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [6, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.60841163477483}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [13, 7, 4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.520487469683632}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [13, 7, 4], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.9445623292839858}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [13, 7, 4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.382188017752478}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [8, 6, 9], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8127062516636552}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [8, 6, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4197857251334256}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [8, 6, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.029655502517405}
+{"seed": 1, "tag": "random", "lambda": 2.0, "disconnects": [16, 6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7985258110916003}
+{"seed": 1, "tag": "random", "lambda": 3.0, "disconnects": [16, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.999, "gt_max_ratio": 1.3552007621017008}
+{"seed": 1, "tag": "random", "lambda": 4.0, "disconnects": [16, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.938220925591038}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6531873379822151}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.567, "gt_max_ratio": 1.1375279801023654}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6451650864805023}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [14, 15], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6920322235323384}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [14, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.801, "gt_max_ratio": 1.2030247289701328}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [14, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7323374706040073}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [8, 19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6349138092886485}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [8, 19], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.158, "gt_max_ratio": 1.0437414252647417}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [8, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4916354270167036}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [19, 12], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7346553168502875}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [19, 12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.896, "gt_max_ratio": 1.2676283697676896}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [19, 12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7975408290000172}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6194587769199896}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [4], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.337, "gt_max_ratio": 1.1148691512726558}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.574765265635151}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [1, 10, 15], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.017, "gt_max_ratio": 0.9714328445605664}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [1, 10, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6784609395197005}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [1, 10, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.4045197959580458}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [7], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6736138519726029}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [7], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.752, "gt_max_ratio": 1.1796063698372607}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [7], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7179204022297994}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [19, 13], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7198940456464703}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [19, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.914, "gt_max_ratio": 1.2485142157879088}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [19, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7719967226701203}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [7, 1], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.305, "gt_max_ratio": 1.095208358716604}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [7, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.925421269576645}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [7, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.6961952861975322}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5575568029776871}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [10], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.007, "gt_max_ratio": 0.9780840904728433}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3879360770654643}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [17, 3], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7372908425816395}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [17, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.795, "gt_max_ratio": 1.122312278682297}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [17, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.517807662976428}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [2, 13, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [2, 13, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [2, 13, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [1, 9], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7973284313099496}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [1, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.41058571404395}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [1, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.020160164556137}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6464815316259316}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.632, "gt_max_ratio": 1.1588990805849901}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6698695435819888}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [12, 3, 9], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8429319428770363}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [12, 3, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.999, "gt_max_ratio": 1.2789936118497276}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [12, 3, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7726796035676344}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [4, 9], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6462486951624888}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [4, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.625, "gt_max_ratio": 1.1550437378412044}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [4, 9], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.66145066276665}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [19, 14, 12], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.57942469935397}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [19, 14, 12], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.07, "gt_max_ratio": 1.0223416351896788}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [19, 14, 12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4556211418165068}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [3], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5904406492092575}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [3], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.007, "gt_max_ratio": 0.9781955597845001}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.374041116709607}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 2, "tag": "random", "lambda": 2.0, "disconnects": [0], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.189, "gt_max_ratio": 1.062760916538649}
+{"seed": 2, "tag": "random", "lambda": 3.0, "disconnects": [0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8897292008171178}
+{"seed": 2, "tag": "random", "lambda": 4.0, "disconnects": [0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.6197650269317636}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [19, 13, 1], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.011, "gt_max_ratio": 0.9918422567526537}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [19, 13, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.690505029844919}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [19, 13, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.421256613489138}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6896919267485361}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.806, "gt_max_ratio": 1.2035932117780952}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.749695247780222}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [1, 12], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.9060205880906088}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [1, 12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.627393535272892}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [1, 12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.267894796231323}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [12], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7235496644090912}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.934, "gt_max_ratio": 1.252760636030057}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [12], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8045998573931639}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7597015125143782}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.994, "gt_max_ratio": 1.3321682613146004}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.9092985598649985}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [16, 0], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.014, "gt_max_ratio": 0.9957439120824839}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [16, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7129340445877543}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [16, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.39825095739098}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [12, 14, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [12, 14, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [12, 14, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [2, 11, 6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8018468031487377}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [2, 11, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3630068137955698}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [2, 11, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.906009713205879}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [3, 19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8293431346383399}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [3, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.313830916489275}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [3, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.772368746677113}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [4], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5143353114264689}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [4], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8843131549752158}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [4], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.986, "gt_max_ratio": 1.2671672039068986}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [11], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6590305460046834}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [11], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.61, "gt_max_ratio": 1.1384318122447563}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [11], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.658205608715021}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.733264855632257}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.987, "gt_max_ratio": 1.3172902859369418}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.9246853953149416}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [0, 3, 5], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8106798929035895}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [0, 3, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4334323407464529}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [0, 3, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.0444909811511076}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [9, 3], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6638577655237771}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [9, 3], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.178, "gt_max_ratio": 1.0354522260007055}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [9, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4173925340453546}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [9, 14, 19], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7051009940428848}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [9, 14, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.919, "gt_max_ratio": 1.240668349273647}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [9, 14, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7494774960378139}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [14, 16, 13], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7266163788857635}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [14, 16, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.952, "gt_max_ratio": 1.279905320931191}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [14, 16, 13], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8035860831662256}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [13, 17, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [13, 17, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [13, 17, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6525104926926627}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.551, "gt_max_ratio": 1.1487871196918966}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6438533424448378}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [2, 15, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [2, 15, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [2, 15, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 3, "tag": "random", "lambda": 2.0, "disconnects": [1], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.189, "gt_max_ratio": 1.0872592278145414}
+{"seed": 3, "tag": "random", "lambda": 3.0, "disconnects": [1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8570606262425209}
+{"seed": 3, "tag": "random", "lambda": 4.0, "disconnects": [1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.620873916282301}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [19, 3, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [19, 3, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [19, 3, 18], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [11, 4, 17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6343897097874599}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [11, 4, 17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.536, "gt_max_ratio": 1.1341333758762104}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [11, 4, 17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6379892645543532}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [1, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [1, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [1, 0], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [2, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [2, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [2, 18, 19], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [0, 16], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.139, "gt_max_ratio": 1.0383248548844644}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [0, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8407908698473527}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [0, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.524422987906576}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [19, 0, 3], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.023, "gt_max_ratio": 0.9910039847757303}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [19, 0, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6917845643739422}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [19, 0, 3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.4067123896782934}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [15, 8], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.718337508559475}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [15, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.876, "gt_max_ratio": 1.1928411834613122}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [15, 8], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.704533325229457}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [9, 5], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7171096632207906}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [9, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.953, "gt_max_ratio": 1.285212284345225}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [9, 5], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.847216567554774}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [0, 7], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.223, "gt_max_ratio": 1.0754919837051107}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [0, 7], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.8929128901766878}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [0, 7], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.689447010654945}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [3], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6455624102388591}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [3], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.061, "gt_max_ratio": 1.0132068775516632}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [3], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3654458372512623}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [5, 6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7393446335260702}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [5, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.954, "gt_max_ratio": 1.2752049991750671}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [5, 6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.824292183046367}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [3, 18, 14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [3, 18, 14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [3, 18, 14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": Infinity}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5436301316616952}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [17], "nominal_ok": true, "interval_ok": false, "mc_ok": true, "gt_danger_rate": 0.004, "gt_max_ratio": 0.972748451238797}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3944809446115394}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [16, 17], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.6067773355690935}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [16, 17], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.21, "gt_max_ratio": 1.0668363573211022}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [16, 17], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.5235948575355136}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [10], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.702150218028303}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.905, "gt_max_ratio": 1.2361610179748754}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [10], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7608958174927132}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [13, 4, 15], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7383262547971339}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [13, 4, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.897, "gt_max_ratio": 1.1432254988169221}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [13, 4, 15], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.6583603863024547}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [8, 1], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8444394005691543}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [8, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.488489515587906}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [8, 1], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 2.144063491291434}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [14], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.5693754703034368}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [14], "nominal_ok": true, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.093, "gt_max_ratio": 1.036910666137532}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [14], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.4791278226256537}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [14, 12, 16], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.7218915322765664}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [14, 12, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 0.902, "gt_max_ratio": 1.2330245158188302}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [14, 12, 16], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.7750517147945053}
+{"seed": 4, "tag": "random", "lambda": 2.0, "disconnects": [6], "nominal_ok": true, "interval_ok": true, "mc_ok": true, "gt_danger_rate": 0.0, "gt_max_ratio": 0.8015249943773494}
+{"seed": 4, "tag": "random", "lambda": 3.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.3731979695409207}
+{"seed": 4, "tag": "random", "lambda": 4.0, "disconnects": [6], "nominal_ok": false, "interval_ok": false, "mc_ok": false, "gt_danger_rate": 1.0, "gt_max_ratio": 1.9540328312811859}

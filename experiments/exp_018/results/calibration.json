@@ -1,0 +1,23 @@
+{
+  "alpha=0.05": {
+    "eps_hat": 0.16783885657787323,
+    "hoeffding_bound": 0.010176945983708966,
+    "n_calibration": 2200
+  },
+  "alpha=0.1": {
+    "eps_hat": 0.13153627514839172,
+    "hoeffding_bound": 0.010176945983708966,
+    "n_calibration": 2200
+  },
+  "alpha=0.2": {
+    "eps_hat": 0.08237934112548828,
+    "hoeffding_bound": 0.010176945983708966,
+    "n_calibration": 2200
+  },
+  "demo": {
+    "authorized": true,
+    "witness_line": null,
+    "witness_flow": null,
+    "witness_cap": null
+  }
+}

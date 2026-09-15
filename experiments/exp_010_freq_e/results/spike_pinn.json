@@ -1,0 +1,15 @@
+{
+  "rmse_pinn_norm": 0.4615401327610016,
+  "rmse_mlp_norm": 0.32878437638282776,
+  "rmse_pinn_lowdata_norm": 0.47336721420288086,
+  "rmse_mlp_lowdata_norm": 0.25851723551750183,
+  "n_train": 64000,
+  "n_test": 16000,
+  "attrib_pearson_H": 0.11820392952169856,
+  "n_attrib_points": 85,
+  "loss_first_last": [
+    1.0589518547058105,
+    0.2432251125574112
+  ],
+  "elapsed_seconds": 253.3
+}

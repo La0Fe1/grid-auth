@@ -1,0 +1,94 @@
+{
+  "args": {
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "out": "experiments/exp_013/results/abl_llm-proposals.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": "data/processed/llm_proposals.json",
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "require_connected": false,
+    "theta_cap": null,
+    "lines_file": null,
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "rte_case14_realistic",
+    "gt_dist": "uniform",
+    "missing_frac": 0.0,
+    "resume": false,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 300,
+      "rejected": 0,
+      "false_pass_rate": 0.3333333333333333,
+      "mean_danger_when_passed": 0.2917366666666666,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 60,
+      "rejected": 90,
+      "false_pass_rate": 0.16666666666666666,
+      "mean_danger_when_passed": 0.0511,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.05351702372233073
+    },
+    "interval": {
+      "passed": 50,
+      "rejected": 100,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 27.939743995666504
+    },
+    "mc": {
+      "passed": 50,
+      "rejected": 100,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 1.6520309448242188
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.052166666666666674,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "300": {
+      "nominal": 0.05111111111111111,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "1000": {
+      "nominal": 0.0511,
+      "interval": 0.0,
+      "mc": 0.0
+    }
+  },
+  "n_cases": 150,
+  "elapsed_seconds": 15.3
+}

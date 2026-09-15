@@ -1,0 +1,91 @@
+{
+  "args": {
+    "n_states": 100,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "mc_k": 100,
+    "gt_m": 5000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000,
+      5000
+    ],
+    "out": "experiments/exp_017/results/llm_auth_eval.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": "data/processed/llm_proposals.json",
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 500,
+      "rejected": 0,
+      "false_pass_rate": 0.3,
+      "mean_danger_when_passed": 0.2749408,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 110,
+      "rejected": 140,
+      "false_pass_rate": 0.09090909090909091,
+      "mean_danger_when_passed": 0.027689090909090906,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.046036720275878906
+    },
+    "interval": {
+      "passed": 100,
+      "rejected": 150,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 28.785871505737305
+    },
+    "mc": {
+      "passed": 100,
+      "rejected": 150,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 1.964798927307129
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.028363636363636365,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "300": {
+      "nominal": 0.0276969696969697,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "1000": {
+      "nominal": 0.027490909090909087,
+      "interval": 0.0,
+      "mc": 0.0
+    },
+    "5000": {
+      "nominal": 0.027689090909090906,
+      "interval": 0.0,
+      "mc": 0.0
+    }
+  },
+  "n_cases": 250,
+  "elapsed_seconds": 88.7
+}

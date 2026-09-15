@@ -1,0 +1,94 @@
+{
+  "args": {
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "out": "experiments/exp_013/results/abl_telemetry-30.json",
+    "states_cache": "data/processed/auth_states.pkl",
+    "lines_cache": "data/processed/auth_lines.pkl",
+    "proposals": null,
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "require_connected": false,
+    "theta_cap": null,
+    "lines_file": "data/processed/lines_tele30.pkl",
+    "proposal_source": "top",
+    "prob_threshold": null,
+    "case": "rte_case14_realistic",
+    "gt_dist": "uniform",
+    "missing_frac": 0.0,
+    "resume": false,
+    "smoke": false
+  },
+  "summary": {
+    "none": {
+      "passed": 3000,
+      "rejected": 0,
+      "false_pass_rate": 0.327,
+      "mean_danger_when_passed": 0.2583816666666669,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.0
+    },
+    "nominal": {
+      "passed": 695,
+      "rejected": 805,
+      "false_pass_rate": 0.25323741007194245,
+      "mean_danger_when_passed": 0.03720719424460431,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": 0.05305957794189453
+    },
+    "interval": {
+      "passed": 500,
+      "rejected": 1000,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.019,
+      "latency_ms_mean": 28.029226620992027
+    },
+    "mc": {
+      "passed": 546,
+      "rejected": 954,
+      "false_pass_rate": 0.05128205128205128,
+      "mean_danger_when_passed": 0.00035164835164835164,
+      "false_reject_rate": 0.0010482180293501049,
+      "latency_ms_mean": 1.8111546834309897
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.036906474820143906,
+      "interval": 0.0,
+      "mc": 0.00021978021978021978
+    },
+    "300": {
+      "nominal": 0.036460431654676245,
+      "interval": 0.0,
+      "mc": 0.0003113553113553113
+    },
+    "1000": {
+      "nominal": 0.03720719424460431,
+      "interval": 0.0,
+      "mc": 0.00035164835164835164
+    }
+  },
+  "n_cases": 1500,
+  "elapsed_seconds": 147.0
+}

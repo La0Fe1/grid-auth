@@ -1,0 +1,22 @@
+# 缓存与临时
+__pycache__/
+*.pyc
+.cache/
+.tmp/
+.logs/
+# 数据（由 data/get_data.py 获取）
+data/grid2op_data/
+data/raw/
+# 编译中间文件
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/.build*.log
+paper/.anon*.log
+paper/.bib.log
+# 重型产物
+*.zip
+*.pt
+experiments/*/logs/*.log

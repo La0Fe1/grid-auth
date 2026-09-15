@@ -7,6 +7,7 @@
 \usepackage{amsthm}
 \newtheorem{lemma}{Lemma}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{booktabs}
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -15,6 +16,7 @@
 \begin{document}
 
 \title{Uncertainty-Robust Runtime Authorization for Grid AI Agent Actions: Worst-Case Verification via Interval Power Flow}
+
 
 \maketitle
 
@@ -165,9 +167,9 @@ f_\ell^+ = \max_{\mathbf{P} \in \mathcal{P}} f_\ell(\mathbf{P}).
 \subsection{Telemetry-Based Network Identification}
 \label{sec:identification}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_telemetry.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_telemetry.pdf}
 \caption{Identified DC branch flows versus AC branch flows on
 rte\_case14\_realistic (three states, 60 branch observations). The identified
 model reproduces AC flows with Pearson correlation $r = 0.9997$.}
@@ -191,9 +193,9 @@ the same telemetry records.
 \subsection{Interval Verification and the Constructive Guarantee}
 \label{sec:interval}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_framework.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_framework.pdf}
 \caption{Framework: proposers submit actions, the authorization layer releases
 them only if the exact worst case of the post-action branch-flow interval over
 the load uncertainty box satisfies the rating constraint (fail-closed on any
@@ -331,17 +333,26 @@ from the experiment logs only.
 \subsection{Main Comparison}
 \label{sec:resmain}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_main.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_main.pdf}
 \caption{False-pass and false-reject rates of the four verification mechanisms
 (11{,}101 cases, five seeds). The interval layer combines a zero false-pass
 rate with a $1.02\%$ false-reject rate.}
 \label{fig:main}
 \end{figure}
 
-Table~\ref{tab:main} reports the main comparison over 11{,}101
-(state, action, load-level) cases. Nominal verification, the deterministic-twin
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_convergence.pdf}
+\caption{Danger rate among released actions as a function of the ground-truth
+sample size $M$ (nominal, Monte Carlo, and interval verifiers). The interval
+rate is identically zero; the nominal estimate stabilizes from $M=100$
+onward.}
+\label{fig:convergence}
+\end{figure}
+
+Table~\ref{tab:main} reports the main comparison over 11{,}101(state, action, load-level) cases. Nominal verification, the deterministic-twin
 mechanism of TwinGridShield \cite{twingridshield2026}, releases $17.96\%$ of the
 actions that are dangerous under measurement mismatch (mean danger rate $3.08\%$
 among released actions). Monte Carlo verification with $K=100$ samples still
@@ -373,9 +384,9 @@ Interval (this paper) & $\mathbf{0.00\%}$ & $1.02\%$ & $28.8$ \\
 \subsection{LLM Proposer Study}
 \label{sec:resllm}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_llm.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_llm.pdf}
 \caption{Left: number of states in which the LLM proposer acts under the two
 prompting protocols ($100$ states). Right: mismatch danger rate of its
 proposals without authorization, under nominal verification, under Monte Carlo
@@ -396,9 +407,9 @@ agent that freezes and an agent that acts unsafely.
 \subsection{Ablations}
 \label{sec:resabl}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_ablation.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_ablation.pdf}
 \caption{False-reject rate of the interval layer across 13 ablation
 configurations; the false-pass rate is zero in every configuration.}
 \label{fig:ablation}
@@ -430,9 +441,9 @@ releases zero dangerous actions, and with $20\%$ of loads unobserved (box
 widened to $\pm 100\%$) it keeps a $0.00\%$ false-pass rate at $4.2\%$
 false-reject, while the nominal verifier degrades to $37.1\%$ false-pass.
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{figures/fig_eps.pdf}
+\includegraphics[width=\columnwidth]{figures/fig_eps.pdf}
 \caption{False-pass and false-reject rates of the interval layer versus assumed
 uncertainty width $\varepsilon$ (true mismatch fixed at $0.2$). The false-pass
 rate is zero whenever $\varepsilon$ covers the true mismatch.}

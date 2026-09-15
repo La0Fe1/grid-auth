@@ -1,15 +1,16 @@
-"""F5：LLM 提案研究——(a) 双提示词行为对比；(b) 授权前后失配危险率。
+"""F5：LLM 提案研究——(a) 双提示词行为；(b) 授权前后失配危险率（顺序色阶按量级）。
 
 用法：python -m experiments.exp_017.fig_llm
-输出：paper/figures/fig_llm.pdf
+输出：paper/figures/fig_llm.pdf + paper/figures_png/fig_llm.png
 """
 import json
 import os
+import sys
 
-import matplotlib
-matplotlib.use("Agg")
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "paper"))
 import matplotlib.pyplot as plt
-import numpy as np
+
+from figstyle import SEQ_BLUE, savefig, styled
 
 PROP = os.path.join(os.path.dirname(__file__), "..", "..", "data", "processed",
                     "llm_proposals_100.json")
@@ -31,36 +32,33 @@ def main():
     with open(EVAL) as f:
         ev = json.load(f)
     s = ev["summary"]
-    none_fp = s["none"]["false_pass_rate"]
-    nom_fp = s["nominal"]["false_pass_rate"]
-    mc_fp = s["mc"]["false_pass_rate"]
-    int_fp = s["interval"]["false_pass_rate"]
+    rates = [s["none"]["false_pass_rate"], s["nominal"]["false_pass_rate"],
+             s["mc"]["false_pass_rate"], s["interval"]["false_pass_rate"]]
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.4, 2.6))
-    ax1.bar(["Self-verify\nprompt", "Verifier-aware\nprompt"],
-            [n_small - n_frozen, n_active], color=["#d62728", "#2ca02c"],
-            width=0.55)
-    ax1.set_ylabel("States with proposed actions")
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(5.6, 2.3))
+
+    styled(ax1)
+    vals = [n_small - n_frozen, n_active]
+    ax1.bar(["Self-verify\nprompt", "Verifier-aware\nprompt"], vals,
+            color=SEQ_BLUE[450], width=0.55)
+    ax1.set_ylabel("States with\nproposed actions")
     ax1.set_ylim(0, n)
-    ax1.grid(axis="y", alpha=0.3)
-    ax1.text(0, (n_small - n_frozen) + 1.5, f"{n_small - n_frozen}/{n_small}",
-             ha="center", fontsize=8)
-    ax1.text(1, n_active + 1.5, f"{n_active}/{n}", ha="center", fontsize=8)
+    for xi, v in enumerate(vals):
+        ax1.text(xi, v + 1.5, f"{v}/{n_small if xi == 0 else n}",
+                 ha="center", fontsize=7, color="#52514e")
 
-    bars = [none_fp, nom_fp, mc_fp, int_fp]
-    ax2.bar(["None", "Nominal", "Monte\nCarlo", "Interval"], bars,
-            color=["#7f7f7f", "#d62728", "#9467bd", "#2ca02c"], width=0.55)
+    styled(ax2)
+    labels = ["None", "Nominal", "Monte\nCarlo", "Interval"]
+    steps = [600, 400, 200, 100]  # 量级→颜色深浅（顺序色阶）
+    ax2.bar(labels, rates, color=[SEQ_BLUE[k] for k in steps], width=0.55)
     ax2.set_ylabel("Mismatch danger rate")
-    ax2.set_ylim(0, 0.65)
-    ax2.grid(axis="y", alpha=0.3)
-    for xi, v in enumerate(bars):
-        ax2.text(xi, v + 0.012, f"{v*100:.2f}%", ha="center", fontsize=8)
+    ax2.set_ylim(0, 0.66)
+    for xi, v in enumerate(rates):
+        ax2.text(xi, v + 0.012, f"{v*100:.2f}%", ha="center",
+                 fontsize=7, color="#52514e")
+
     fig.tight_layout()
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "paper", "figures",
-                       "fig_llm.pdf")
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    fig.savefig(out, bbox_inches="tight")
-    print(f"保存: {out}")
+    savefig(fig, "fig_llm.pdf")
 
 
 if __name__ == "__main__":

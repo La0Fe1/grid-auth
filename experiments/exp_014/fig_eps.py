@@ -1,15 +1,16 @@
-"""F7（主图）：区间验证误放/误拒率随不确定性宽度 ε 的曲线（真值失配固定 0.2）。
+"""F7（主图）：区间验证误放/误拒率随 ε 的曲线——双面板（禁止双轴）。
 
 用法：python -m experiments.exp_014.fig_eps
-输出：paper/figures/fig_eps.pdf
+输出：paper/figures/fig_eps.pdf + paper/figures_png/fig_eps.png
 """
 import json
 import os
+import sys
 
-import matplotlib
-matplotlib.use("Agg")
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "paper"))
 import matplotlib.pyplot as plt
-import numpy as np
+
+from figstyle import CAT, SEQ_BLUE, savefig, styled
 
 RESULT_DIR = os.path.join(os.path.dirname(__file__), "results")
 
@@ -26,35 +27,30 @@ def main():
         fr.append(s["interval"]["false_reject_rate"])
         fp_nom.append(s["nominal"]["false_pass_rate"])
 
-    fig, ax1 = plt.subplots(figsize=(4.6, 3.2))
-    ax1.plot(eps, fp, "o-", color="#1f77b4", label="interval false-pass rate")
-    ax1.axhline(fp_nom[0], color="#d62728", ls=":", lw=1,
-                label="nominal false-pass rate (constant)")
-    ax1.axvline(0.2, color="gray", ls="--", lw=1, alpha=0.7)
-    ax1.annotate("true mismatch $\\varepsilon_{\\text{ref}}=0.2$",
-                 xy=(0.2, 0.01), xytext=(0.06, 0.05),
-                 arrowprops=dict(arrowstyle="->", lw=0.8), fontsize=8)
-    ax1.set_xlabel("Assumed uncertainty width $\\varepsilon$")
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(3.4, 3.6), sharex=True)
+    styled(ax1)
+    ax1.plot(eps, fp, "o-", color=SEQ_BLUE[500], lw=1.5, ms=5)
+    ax1.axhline(fp_nom[0], color=CAT[2], ls=":", lw=1.1,
+                label="nominal verifier (constant)")
+    ax1.axvline(0.2, color="#c3c2b7", ls="--", lw=0.9)
+    ax1.annotate("true mismatch\n$\\varepsilon=0.2$", xy=(0.2, 0.02),
+                 xytext=(0.03, 0.13), fontsize=7,
+                 arrowprops=dict(arrowstyle="->", lw=0.7, color="#898781"),
+                 color="#52514e")
     ax1.set_ylabel("False-pass rate")
     ax1.set_ylim(-0.02, 0.30)
-    ax1.grid(alpha=0.3)
+    ax1.legend(loc="center left")
 
-    ax2 = ax1.twinx()
-    ax2.plot(eps, fr, "s--", color="#2ca02c", label="interval false-reject rate")
+    styled(ax2)
+    ax2.plot(eps, fr, "s--", color=SEQ_BLUE[400], lw=1.5, ms=5)
+    ax2.set_xlabel("Assumed uncertainty width $\\varepsilon$")
     ax2.set_ylabel("False-reject rate")
     ax2.set_ylim(-0.02, 0.20)
+    ax2.set_xticks(eps)
 
-    lines1, labels1 = ax1.get_legend_handles_labels()
-    lines2, labels2 = ax2.get_legend_handles_labels()
-    ax1.legend(lines1 + lines2, labels1 + labels2, fontsize=8, loc="center left")
+    fig.align_ylabels()
     fig.tight_layout()
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "paper", "figures",
-                       "fig_eps.pdf")
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    fig.savefig(out, bbox_inches="tight")
-    print(f"保存: {out}")
-    print("  ε → 误放率:", dict(zip(eps, np.round(fp, 4))))
-    print("  ε → 误拒率:", dict(zip(eps, np.round(fr, 4))))
+    savefig(fig, "fig_eps.pdf")
 
 
 if __name__ == "__main__":

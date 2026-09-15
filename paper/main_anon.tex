@@ -3,6 +3,7 @@
 \usepackage{amsthm}
 \newtheorem{lemma}{Lemma}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{booktabs}
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -12,6 +13,7 @@
 \begin{document}
 
 \title{Uncertainty-Robust Runtime Authorization for Grid AI Agent Actions: Worst-Case Verification via Interval Power Flow}
+
 
 \maketitle
 
@@ -164,7 +166,7 @@ f_\ell^+ = \max_{\mathbf{P} \in \mathcal{P}} f_\ell(\mathbf{P}).
 \subsection{Telemetry-Based Network Identification}
 \label{sec:identification}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_telemetry.pdf}
 \caption{Identified DC branch flows versus AC branch flows on
@@ -190,7 +192,7 @@ the same telemetry records.
 \subsection{Interval Verification and the Constructive Guarantee}
 \label{sec:interval}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_framework.pdf}
 \caption{Framework: proposers submit actions, the authorization layer releases
@@ -330,7 +332,7 @@ from the experiment logs only.
 \subsection{Main Comparison}
 \label{sec:resmain}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_main.pdf}
 \caption{False-pass and false-reject rates of the four verification mechanisms
@@ -339,8 +341,17 @@ rate with a $1.02\%$ false-reject rate.}
 \label{fig:main}
 \end{figure}
 
-Table~\ref{tab:main} reports the main comparison over 11{,}101
-(state, action, load-level) cases. Nominal verification, the deterministic-twin
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_convergence.pdf}
+\caption{Danger rate among released actions as a function of the ground-truth
+sample size $M$ (nominal, Monte Carlo, and interval verifiers). The interval
+rate is identically zero; the nominal estimate stabilizes from $M=100$
+onward.}
+\label{fig:convergence}
+\end{figure}
+
+Table~\ref{tab:main} reports the main comparison over 11{,}101(state, action, load-level) cases. Nominal verification, the deterministic-twin
 mechanism of TwinGridShield \cite{twingridshield2026}, releases $17.96\%$ of the
 actions that are dangerous under measurement mismatch (mean danger rate $3.08\%$
 among released actions). Monte Carlo verification with $K=100$ samples still
@@ -372,7 +383,7 @@ Interval (this paper) & $\mathbf{0.00\%}$ & $1.02\%$ & $28.8$ \\
 \subsection{LLM Proposer Study}
 \label{sec:resllm}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_llm.pdf}
 \caption{Left: number of states in which the LLM proposer acts under the two
@@ -395,7 +406,7 @@ agent that freezes and an agent that acts unsafely.
 \subsection{Ablations}
 \label{sec:resabl}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_ablation.pdf}
 \caption{False-reject rate of the interval layer across 13 ablation
@@ -429,7 +440,7 @@ releases zero dangerous actions, and with $20\%$ of loads unobserved (box
 widened to $\pm 100\%$) it keeps a $0.00\%$ false-pass rate at $4.2\%$
 false-reject, while the nominal verifier degrades to $37.1\%$ false-pass.
 
-\begin{figure}[t]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_eps.pdf}
 \caption{False-pass and false-reject rates of the interval layer versus assumed

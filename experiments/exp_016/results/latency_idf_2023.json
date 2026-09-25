@@ -1,0 +1,6 @@
+{
+  "case": "l2rpn_idf_2023",
+  "interval_cf_ms": 392.3339219999997,
+  "n_repetitions": 100,
+  "note": "lightweight runner: env init only for thermal limits; no chronics"
+}

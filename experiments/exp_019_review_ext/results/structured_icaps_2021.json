@@ -1,0 +1,55 @@
+{
+  "case": "l2rpn_icaps_2021",
+  "protocol": "1500 = 5 seeds x 20 states x 5 candidates x 3 load levels (1.2/1.5/2.0), eps=0.2, m=0.05; truth = exact worst case of each set (matched design -> zero false-pass by construction)",
+  "baseline_box": {
+    "n_cases": 1500,
+    "released": 80,
+    "release_fraction": 0.0533,
+    "extra_releases_vs_box": 0.0
+  },
+  "zone_boxes": {
+    "4": {
+      "n_cases": 1500,
+      "released": 240,
+      "release_fraction": 0.16,
+      "extra_releases_vs_box": 0.1067
+    },
+    "8": {
+      "n_cases": 1500,
+      "released": 240,
+      "release_fraction": 0.16,
+      "extra_releases_vs_box": 0.1067
+    }
+  },
+  "budget_sets": {
+    "0.5": {
+      "n_cases": 1500,
+      "released": 370,
+      "release_fraction": 0.2467,
+      "extra_releases_vs_box": 0.1933
+    },
+    "0.75": {
+      "n_cases": 1500,
+      "released": 305,
+      "release_fraction": 0.2033,
+      "extra_releases_vs_box": 0.15
+    }
+  },
+  "budget_lp_median_ms": 120.228,
+  "ptdf_zonotopes": {
+    "2": {
+      "n_cases": 1500,
+      "released": 510,
+      "release_fraction": 0.34,
+      "extra_releases_vs_box": 0.2867
+    },
+    "4": {
+      "n_cases": 1500,
+      "released": 495,
+      "release_fraction": 0.33,
+      "extra_releases_vs_box": 0.2767
+    }
+  },
+  "n_cases": 1500,
+  "elapsed_seconds": 364.0
+}

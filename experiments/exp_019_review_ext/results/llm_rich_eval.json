@@ -1,0 +1,50 @@
+{
+  "protocol": "rich-observability variant (all 20 lines with rho/margin + totals + ±20% band), verifier-aware system prompt, deepseek-chat via llm-chat MCP; eval: active states x 5 seeds x 5 load levels (1..5), exact box-corner ground truth on the true model",
+  "n_states": 100,
+  "n_active": 4,
+  "active_states": {
+    "4": [
+      17
+    ],
+    "11": [
+      9
+    ],
+    "47": [
+      17
+    ],
+    "53": [
+      17,
+      4
+    ]
+  },
+  "baseline_minimal_summary": {
+    "n_active": 46,
+    "none": 0.6,
+    "nominal": 0.1636,
+    "mc": 0.0065,
+    "interval": 0.0
+  },
+  "n_cases": 125,
+  "summary": {
+    "none": {
+      "released_fraction": 1.0,
+      "false_pass_rate": 0.6,
+      "false_reject_rate": 0.0
+    },
+    "nominal": {
+      "released_fraction": 0.4,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "mc": {
+      "released_fraction": 0.4,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "interval": {
+      "released_fraction": 0.4,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "main_14bus": {
+    "nominal-vs-interval": {
+      "false_pass": {
+        "only_A": 1097,
+        "only_B": 0,
+        "both": 0,
+        "neither": 11403,
+        "mcnemar_chi2": 1097.0,
+        "p": 1.4822396588294853e-240
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 73,
+        "both": 0,
+        "neither": 12427,
+        "mcnemar_chi2": 73.0,
+        "p": 1.2964983720780151e-17
+      }
+    },
+    "mc-vs-interval": {
+      "false_pass": {
+        "only_A": 130,
+        "only_B": 0,
+        "both": 0,
+        "neither": 12370,
+        "mcnemar_chi2": 130.0,
+        "p": 4.097776494844903e-30
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 72,
+        "both": 1,
+        "neither": 12427,
+        "mcnemar_chi2": 72.0,
+        "p": 2.1519736712498897e-17
+      }
+    },
+    "nominal-vs-mc": {
+      "false_pass": {
+        "only_A": 967,
+        "only_B": 0,
+        "both": 130,
+        "neither": 11403,
+        "mcnemar_chi2": 967.0,
+        "p": 2.6754501543913794e-212
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 1,
+        "both": 0,
+        "neither": 12499,
+        "mcnemar_chi2": 1.0,
+        "p": 0.31731050786291115
+      }
+    }
+  },
+  "llm_14bus": {
+    "nominal-vs-interval": {
+      "false_pass": {
+        "only_A": 90,
+        "only_B": 0,
+        "both": 0,
+        "neither": 1060,
+        "mcnemar_chi2": 90.0,
+        "p": 2.381600164396296e-21
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 0,
+        "both": 0,
+        "neither": 1150,
+        "mcnemar_chi2": 0.0,
+        "p": 1.0
+      }
+    },
+    "mc-vs-interval": {
+      "false_pass": {
+        "only_A": 3,
+        "only_B": 0,
+        "both": 0,
+        "neither": 1147,
+        "mcnemar_chi2": 3.0,
+        "p": 0.08326451666355042
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 0,
+        "both": 0,
+        "neither": 1150,
+        "mcnemar_chi2": 0.0,
+        "p": 1.0
+      }
+    },
+    "nominal-vs-mc": {
+      "false_pass": {
+        "only_A": 87,
+        "only_B": 0,
+        "both": 3,
+        "neither": 1060,
+        "mcnemar_chi2": 87.0,
+        "p": 1.0852117784135194e-20
+      },
+      "false_reject": {
+        "only_A": 0,
+        "only_B": 0,
+        "both": 0,
+        "neither": 1150,
+        "mcnemar_chi2": 0.0,
+        "p": 1.0
+      }
+    }
+  }
+}

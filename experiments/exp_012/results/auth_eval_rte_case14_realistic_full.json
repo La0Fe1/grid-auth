@@ -1,0 +1,92 @@
+{
+  "args": {
+    "case": "rte_case14_realistic",
+    "test_mode": false,
+    "n_states": 100,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "mc_k": 100,
+    "gt_m": 5000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000,
+      5000
+    ],
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "interval_impl": "closed-form corner formula (exactly equivalent to LP; unit-tested)",
+    "rng": "RandomState 20260916 (fresh draws)"
+  },
+  "summary": {
+    "none": {
+      "passed": 12500,
+      "rejected": 0,
+      "false_pass_rate": 0.59456,
+      "mean_danger_when_passed": 0.5008007039999994,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": null
+    },
+    "nominal": {
+      "passed": 6165,
+      "rejected": 6335,
+      "false_pass_rate": 0.17793998377939985,
+      "mean_danger_when_passed": 0.031293527980535266,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": null
+    },
+    "interval": {
+      "passed": 4995,
+      "rejected": 7505,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.009726848767488342,
+      "latency_ms_mean": null
+    },
+    "mc": {
+      "passed": 5197,
+      "rejected": 7303,
+      "false_pass_rate": 0.025014431402732344,
+      "mean_danger_when_passed": 0.00011903020973638636,
+      "false_reject_rate": 0.00013693002875530603,
+      "latency_ms_mean": null
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.03114030819140315,
+      "interval": 0.0,
+      "mc": 0.00013084471810660003
+    },
+    "300": {
+      "nominal": 0.031274939172749344,
+      "interval": 0.0,
+      "mc": 0.00012956192675261366
+    },
+    "1000": {
+      "nominal": 0.03130105433901055,
+      "interval": 0.0,
+      "mc": 0.00011641331537425443
+    },
+    "5000": {
+      "nominal": 0.031293527980535266,
+      "interval": 0.0,
+      "mc": 0.00011903020973638636
+    }
+  },
+  "n_cases": 12500,
+  "elapsed_seconds": 24.6
+}

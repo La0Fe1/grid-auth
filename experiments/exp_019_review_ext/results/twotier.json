@@ -1,0 +1,66 @@
+{
+  "case": "rte_case14_realistic",
+  "protocol": "20 states x 20 actions x lambda in {2,3,4} (same sampling as Sec. 3.6, RandomState 20260916); tier 2 = AC check at deduplicated DC-worst corners of every active branch",
+  "n_tier1_reject": 799,
+  "corner_probe_median_ms": 0.093,
+  "tau_results": {
+    "0.9": {
+      "dc_safe_cases": 341,
+      "tier2_triggered": 60,
+      "gate_released": 297,
+      "release_fraction_of_dc_safe": 0.871,
+      "rejected_at_corner": 44,
+      "rejected_unresolved": 0,
+      "corner_solves_total": 1339,
+      "corner_solves_per_triggered": 22.32,
+      "tier2_mean_ms_per_triggered": 1.213,
+      "sampled_ac_violation_rate_dcsafe": 0.0,
+      "sampled_ac_violation_rate_released": 0.0
+    },
+    "0.5": {
+      "dc_safe_cases": 341,
+      "tier2_triggered": 341,
+      "gate_released": 274,
+      "release_fraction_of_dc_safe": 0.8035,
+      "rejected_at_corner": 67,
+      "rejected_unresolved": 0,
+      "corner_solves_total": 8025,
+      "corner_solves_per_triggered": 23.53,
+      "tier2_mean_ms_per_triggered": 1.334,
+      "sampled_ac_violation_rate_dcsafe": 0.0,
+      "sampled_ac_violation_rate_released": 0.0
+    },
+    "0.0": {
+      "dc_safe_cases": 341,
+      "tier2_triggered": 341,
+      "gate_released": 274,
+      "release_fraction_of_dc_safe": 0.8035,
+      "rejected_at_corner": 67,
+      "rejected_unresolved": 0,
+      "corner_solves_total": 8025,
+      "corner_solves_per_triggered": 23.53,
+      "tier2_mean_ms_per_triggered": 1.334,
+      "sampled_ac_violation_rate_dcsafe": 0.0,
+      "sampled_ac_violation_rate_released": 0.0
+    }
+  },
+  "by_lam_tau0.9": {
+    "2.0": {
+      "dc_safe": 341,
+      "released": 297,
+      "rejected_corner": 44
+    },
+    "3.0": {
+      "dc_safe": 0,
+      "released": 0,
+      "rejected_corner": 0
+    },
+    "4.0": {
+      "dc_safe": 0,
+      "released": 0,
+      "rejected_corner": 0
+    }
+  },
+  "n_unresolved_uniform_probes": 0,
+  "elapsed_seconds": 8.9
+}

@@ -1,0 +1,178 @@
+{
+  "14bus_12500": {
+    "none": {
+      "false_pass_exact": 0.6004,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 1.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        7505,
+        4995,
+        0,
+        0
+      ]
+    },
+    "nominal": {
+      "false_pass_exact": 0.1898,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.1559,
+      "FNR_exact": 0.0,
+      "counts": [
+        1170,
+        4995,
+        6335,
+        0
+      ]
+    },
+    "interval": {
+      "false_pass_exact": 0.0,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        0,
+        4995,
+        7505,
+        0
+      ]
+    },
+    "mc": {
+      "false_pass_exact": 0.0389,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0269,
+      "FNR_exact": 0.0,
+      "counts": [
+        202,
+        4995,
+        7303,
+        0
+      ]
+    }
+  },
+  "36bus_1500": {
+    "nominal": {
+      "false_pass_exact": 0.8519,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.3239,
+      "FNR_exact": 0.0,
+      "counts": [
+        460,
+        80,
+        960,
+        0
+      ]
+    },
+    "interval": {
+      "false_pass_exact": 0.0,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        0,
+        80,
+        1420,
+        0
+      ]
+    },
+    "mc": {
+      "false_pass_exact": 0.7759,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.1951,
+      "FNR_exact": 0.0,
+      "counts": [
+        277,
+        80,
+        1143,
+        0
+      ]
+    }
+  },
+  "118bus_1500": {
+    "nominal": {
+      "false_pass_exact": 0.85,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.2982,
+      "FNR_exact": 0.0,
+      "counts": [
+        425,
+        75,
+        1000,
+        0
+      ]
+    },
+    "interval": {
+      "false_pass_exact": 0.0,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        0,
+        75,
+        1425,
+        0
+      ]
+    },
+    "mc": {
+      "false_pass_exact": 0.8272,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.2519,
+      "FNR_exact": 0.0,
+      "counts": [
+        359,
+        75,
+        1066,
+        0
+      ]
+    }
+  },
+  "llm_1150": {
+    "none": {
+      "false_pass_exact": 0.6,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 1.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        690,
+        460,
+        0,
+        0
+      ]
+    },
+    "nominal": {
+      "false_pass_exact": 0.1636,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.1304,
+      "FNR_exact": 0.0,
+      "counts": [
+        90,
+        460,
+        600,
+        0
+      ]
+    },
+    "interval": {
+      "false_pass_exact": 0.0,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0,
+      "FNR_exact": 0.0,
+      "counts": [
+        0,
+        460,
+        690,
+        0
+      ]
+    },
+    "mc": {
+      "false_pass_exact": 0.0065,
+      "false_reject_exact": 0.0,
+      "FPR_exact": 0.0043,
+      "FNR_exact": 0.0,
+      "counts": [
+        3,
+        460,
+        687,
+        0
+      ]
+    }
+  }
+}

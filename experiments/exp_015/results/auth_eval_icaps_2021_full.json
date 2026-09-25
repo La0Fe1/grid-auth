@@ -1,0 +1,84 @@
+{
+  "args": {
+    "case": "l2rpn_icaps_2021",
+    "test_mode": true,
+    "n_states": 20,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_candidates": 5,
+    "lamdas": [
+      1.2,
+      1.5,
+      2.0
+    ],
+    "mc_k": 100,
+    "gt_m": 1000,
+    "conv_checkpoints": [
+      100,
+      300,
+      1000
+    ],
+    "load_eps": 0.2,
+    "margin": 0.05,
+    "interval_impl": "closed-form corner formula (exactly equivalent to LP; unit-tested)",
+    "rng": "RandomState 20260916 (fresh draws)"
+  },
+  "summary": {
+    "none": {
+      "passed": 1500,
+      "rejected": 0,
+      "false_pass_rate": 0.7833333333333333,
+      "mean_danger_when_passed": 0.6156159999999998,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": null
+    },
+    "nominal": {
+      "passed": 540,
+      "rejected": 960,
+      "false_pass_rate": 0.39814814814814814,
+      "mean_danger_when_passed": 0.06579814814814816,
+      "false_reject_rate": 0.0,
+      "latency_ms_mean": null
+    },
+    "interval": {
+      "passed": 80,
+      "rejected": 1420,
+      "false_pass_rate": 0.0,
+      "mean_danger_when_passed": 0.0,
+      "false_reject_rate": 0.17253521126760563,
+      "latency_ms_mean": null
+    },
+    "mc": {
+      "passed": 357,
+      "rejected": 1143,
+      "false_pass_rate": 0.11204481792717087,
+      "mean_danger_when_passed": 0.00040616246498599454,
+      "false_reject_rate": 0.00699912510936133,
+      "latency_ms_mean": null
+    }
+  },
+  "conv_curves": {
+    "100": {
+      "nominal": 0.0667222222222223,
+      "interval": 0.0,
+      "mc": 0.000588235294117647
+    },
+    "300": {
+      "nominal": 0.06579012345679017,
+      "interval": 0.0,
+      "mc": 0.0004948646125116711
+    },
+    "1000": {
+      "nominal": 0.06579814814814816,
+      "interval": 0.0,
+      "mc": 0.00040616246498599454
+    }
+  },
+  "n_cases": 1500,
+  "elapsed_seconds": 6.4
+}

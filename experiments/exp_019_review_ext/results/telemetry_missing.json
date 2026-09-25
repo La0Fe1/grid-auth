@@ -1,0 +1,59 @@
+{
+  "case": "rte_case14_realistic",
+  "protocol": "identification from 60 telemetry snapshots under missing/bias/asynchrony patterns; eval on 7500 = 5 seeds x 100 states x 5 candidates x lambda in {2,3,4}, truth = exact corner criterion on the true model (eps=0.2, m=0.05)",
+  "fidelity_pearson_r": {
+    "clean": 0.9997,
+    "drop50": 0.9997,
+    "drop80": 0.9997,
+    "bias05": 0.9997,
+    "bias10": 0.9997,
+    "lag1": 0.9996,
+    "nopmu30": 0.9997
+  },
+  "models": {
+    "clean": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "drop50": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "drop80": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "bias05": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "bias10": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "lag1": {
+      "n_fallback_branches": 0,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    },
+    "nopmu30": {
+      "n_fallback_branches": 6,
+      "released_fraction": 0.3327,
+      "false_pass_rate": 0.0,
+      "false_reject_rate": 0.0
+    }
+  },
+  "n_cases": 7500,
+  "elapsed_seconds": 58.5
+}

@@ -1,0 +1,52 @@
+{
+  "case": "rte_case14_realistic",
+  "protocol": "20 states x 20 actions x 3 load levels x (200 uniform + per-branch DC-corner probes), AC via lightsim2grid TimeSerie",
+  "containment_rate": 0.7284060863825346,
+  "n_probe_points": 4941786,
+  "max_miss_below_lo_mw": 448.809847145831,
+  "max_miss_above_hi_mw": 629.7930314007644,
+  "ac_pf_failures": 11226,
+  "ac_danger_when_dc_safe": 67,
+  "dc_safe_cases_checked": 341,
+  "dc_rejected_cases_checked": 799,
+  "ac_confirms_rejection": 769,
+  "ac_rejection_confirmation_rate": 0.9625,
+  "containment_by_lam": {
+    "2.0": 0.7642,
+    "3.0": 0.7306,
+    "4.0": 0.685
+  },
+  "corner_containment": 0.6413310634746008,
+  "corner_containment_by_lam": {
+    "2.0": 0.6608,
+    "3.0": 0.6321,
+    "4.0": 0.628
+  },
+  "ac_danger_rate_by_lam": {
+    "2.0": 0.1965,
+    "3.0": 0.0,
+    "4.0": 0.0
+  },
+  "worst_branch_miss_rates_top5": [
+    [
+      0.44890770148575326,
+      0
+    ],
+    [
+      0.41140129405174586,
+      2
+    ],
+    [
+      0.38307327070186475,
+      6
+    ],
+    [
+      0.3634832577826657,
+      12
+    ],
+    [
+      0.3580666761357872,
+      4
+    ]
+  ]
+}

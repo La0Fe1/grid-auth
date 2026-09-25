@@ -1,0 +1,17 @@
+{
+  "rte_case14_realistic": {
+    "ptdf_prep_ms": 0.0242,
+    "full_check_ms": 0.1787,
+    "corner_eval_ms": 0.1545
+  },
+  "icaps_2021": {
+    "ptdf_prep_ms": 0.0607,
+    "full_check_ms": 0.5396,
+    "corner_eval_ms": 0.4788
+  },
+  "idf_2023": {
+    "ptdf_prep_ms": 75.6374,
+    "full_check_ms": 81.914,
+    "corner_eval_ms": 6.2766
+  }
+}

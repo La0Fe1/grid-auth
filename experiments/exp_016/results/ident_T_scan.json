@@ -1,0 +1,24 @@
+{
+  "case": "rte_case14_realistic",
+  "protocol": "T snapshots LS estimation; fidelity on seed-7 3-state/60-branch sample",
+  "5": {
+    "r": 0.9997,
+    "max_abs_err_mw": 2.28
+  },
+  "10": {
+    "r": 0.9997,
+    "max_abs_err_mw": 2.27
+  },
+  "20": {
+    "r": 0.9997,
+    "max_abs_err_mw": 2.22
+  },
+  "30": {
+    "r": 0.9997,
+    "max_abs_err_mw": 2.23
+  },
+  "60": {
+    "r": 0.9997,
+    "max_abs_err_mw": 2.23
+  }
+}

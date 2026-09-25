@@ -1,0 +1,18 @@
+{
+  "case": "rte_case14_realistic",
+  "protocol": "same as fig_telemetry (60 snapshots LS, seed-7 3-state/60-branch fidelity)",
+  "levels": {
+    "0.0": {
+      "r": 0.999740505307409
+    },
+    "0.01": {
+      "r": 0.9997541712903274
+    },
+    "0.05": {
+      "r": 0.999770141951087
+    },
+    "0.1": {
+      "r": 0.9997058583750467
+    }
+  }
+}

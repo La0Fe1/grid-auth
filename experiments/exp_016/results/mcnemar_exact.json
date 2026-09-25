@@ -1,0 +1,23 @@
+{
+  "nominal-vs-interval": {
+    "discordant": [
+      1170,
+      0
+    ],
+    "p": 2.0193184585214373e-256
+  },
+  "mc-vs-interval": {
+    "discordant": [
+      202,
+      0
+    ],
+    "p": 7.645355996423392e-46
+  },
+  "nominal-vs-mc": {
+    "discordant": [
+      968,
+      0
+    ],
+    "p": 1.621905860933501e-212
+  }
+}

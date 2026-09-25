@@ -1,0 +1,413 @@
+{
+  "protocol": "self-verify",
+  "model": "deepseek-chat (llm-chat MCP, default decoding)",
+  "n_states": 100,
+  "n_active": 0,
+  "n_frozen": 100,
+  "verifier_aware_comparison": {
+    "n_states": 100,
+    "n_active": 46
+  },
+  "per_state": [
+    {
+      "state_id": 0,
+      "actions": []
+    },
+    {
+      "state_id": 1,
+      "actions": []
+    },
+    {
+      "state_id": 2,
+      "actions": []
+    },
+    {
+      "state_id": 3,
+      "actions": []
+    },
+    {
+      "state_id": 4,
+      "actions": []
+    },
+    {
+      "state_id": 5,
+      "actions": []
+    },
+    {
+      "state_id": 6,
+      "actions": []
+    },
+    {
+      "state_id": 7,
+      "actions": []
+    },
+    {
+      "state_id": 8,
+      "actions": []
+    },
+    {
+      "state_id": 9,
+      "actions": []
+    },
+    {
+      "state_id": 10,
+      "actions": []
+    },
+    {
+      "state_id": 11,
+      "actions": []
+    },
+    {
+      "state_id": 12,
+      "actions": []
+    },
+    {
+      "state_id": 13,
+      "actions": []
+    },
+    {
+      "state_id": 14,
+      "actions": []
+    },
+    {
+      "state_id": 15,
+      "actions": []
+    },
+    {
+      "state_id": 16,
+      "actions": []
+    },
+    {
+      "state_id": 17,
+      "actions": []
+    },
+    {
+      "state_id": 18,
+      "actions": []
+    },
+    {
+      "state_id": 19,
+      "actions": []
+    },
+    {
+      "state_id": 20,
+      "actions": []
+    },
+    {
+      "state_id": 21,
+      "actions": []
+    },
+    {
+      "state_id": 22,
+      "actions": []
+    },
+    {
+      "state_id": 23,
+      "actions": []
+    },
+    {
+      "state_id": 24,
+      "actions": []
+    },
+    {
+      "state_id": 25,
+      "actions": []
+    },
+    {
+      "state_id": 26,
+      "actions": []
+    },
+    {
+      "state_id": 27,
+      "actions": []
+    },
+    {
+      "state_id": 28,
+      "actions": []
+    },
+    {
+      "state_id": 29,
+      "actions": []
+    },
+    {
+      "state_id": 30,
+      "actions": []
+    },
+    {
+      "state_id": 31,
+      "actions": []
+    },
+    {
+      "state_id": 32,
+      "actions": []
+    },
+    {
+      "state_id": 33,
+      "actions": []
+    },
+    {
+      "state_id": 34,
+      "actions": []
+    },
+    {
+      "state_id": 35,
+      "actions": []
+    },
+    {
+      "state_id": 36,
+      "actions": []
+    },
+    {
+      "state_id": 37,
+      "actions": []
+    },
+    {
+      "state_id": 38,
+      "actions": []
+    },
+    {
+      "state_id": 39,
+      "actions": []
+    },
+    {
+      "state_id": 40,
+      "actions": []
+    },
+    {
+      "state_id": 41,
+      "actions": []
+    },
+    {
+      "state_id": 42,
+      "actions": []
+    },
+    {
+      "state_id": 43,
+      "actions": []
+    },
+    {
+      "state_id": 44,
+      "actions": []
+    },
+    {
+      "state_id": 45,
+      "actions": []
+    },
+    {
+      "state_id": 46,
+      "actions": []
+    },
+    {
+      "state_id": 47,
+      "actions": []
+    },
+    {
+      "state_id": 48,
+      "actions": []
+    },
+    {
+      "state_id": 49,
+      "actions": []
+    },
+    {
+      "state_id": 50,
+      "actions": []
+    },
+    {
+      "state_id": 51,
+      "actions": []
+    },
+    {
+      "state_id": 52,
+      "actions": []
+    },
+    {
+      "state_id": 53,
+      "actions": []
+    },
+    {
+      "state_id": 54,
+      "actions": []
+    },
+    {
+      "state_id": 55,
+      "actions": []
+    },
+    {
+      "state_id": 56,
+      "actions": []
+    },
+    {
+      "state_id": 57,
+      "actions": []
+    },
+    {
+      "state_id": 58,
+      "actions": []
+    },
+    {
+      "state_id": 59,
+      "actions": []
+    },
+    {
+      "state_id": 60,
+      "actions": []
+    },
+    {
+      "state_id": 61,
+      "actions": []
+    },
+    {
+      "state_id": 62,
+      "actions": []
+    },
+    {
+      "state_id": 63,
+      "actions": []
+    },
+    {
+      "state_id": 64,
+      "actions": []
+    },
+    {
+      "state_id": 65,
+      "actions": []
+    },
+    {
+      "state_id": 66,
+      "actions": []
+    },
+    {
+      "state_id": 67,
+      "actions": []
+    },
+    {
+      "state_id": 68,
+      "actions": []
+    },
+    {
+      "state_id": 69,
+      "actions": []
+    },
+    {
+      "state_id": 70,
+      "actions": []
+    },
+    {
+      "state_id": 71,
+      "actions": []
+    },
+    {
+      "state_id": 72,
+      "actions": []
+    },
+    {
+      "state_id": 73,
+      "actions": []
+    },
+    {
+      "state_id": 74,
+      "actions": []
+    },
+    {
+      "state_id": 75,
+      "actions": []
+    },
+    {
+      "state_id": 76,
+      "actions": []
+    },
+    {
+      "state_id": 77,
+      "actions": []
+    },
+    {
+      "state_id": 78,
+      "actions": []
+    },
+    {
+      "state_id": 79,
+      "actions": []
+    },
+    {
+      "state_id": 80,
+      "actions": []
+    },
+    {
+      "state_id": 81,
+      "actions": []
+    },
+    {
+      "state_id": 82,
+      "actions": []
+    },
+    {
+      "state_id": 83,
+      "actions": []
+    },
+    {
+      "state_id": 84,
+      "actions": []
+    },
+    {
+      "state_id": 85,
+      "actions": []
+    },
+    {
+      "state_id": 86,
+      "actions": []
+    },
+    {
+      "state_id": 87,
+      "actions": []
+    },
+    {
+      "state_id": 88,
+      "actions": []
+    },
+    {
+      "state_id": 89,
+      "actions": []
+    },
+    {
+      "state_id": 90,
+      "actions": []
+    },
+    {
+      "state_id": 91,
+      "actions": []
+    },
+    {
+      "state_id": 92,
+      "actions": []
+    },
+    {
+      "state_id": 93,
+      "actions": []
+    },
+    {
+      "state_id": 94,
+      "actions": []
+    },
+    {
+      "state_id": 95,
+      "actions": []
+    },
+    {
+      "state_id": 96,
+      "actions": []
+    },
+    {
+      "state_id": 97,
+      "actions": []
+    },
+    {
+      "state_id": 98,
+      "actions": []
+    },
+    {
+      "state_id": 99,
+      "actions": []
+    }
+  ]
+}

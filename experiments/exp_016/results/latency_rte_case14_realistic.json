@@ -1,7 +1,8 @@
 {
   "case": "rte_case14_realistic",
   "n_repetitions": 100,
-  "nominal_ms": 0.07867499999974825,
-  "interval_ms": 42.66681999999946,
-  "mc100_ms": 7.142369999999119
+  "nominal_ms": 0.04143099999964761,
+  "interval_ms": 27.80661300000247,
+  "interval_cf_ms": 0.23158799999691837,
+  "mc100_ms": 4.4601760000023205
 }

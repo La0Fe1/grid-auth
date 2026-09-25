@@ -1,0 +1,7 @@
+{
+  "n_states": 100,
+  "states_nominal_leaks_interval_zero": 80,
+  "states_interval_leaks_nominal_zero": 0,
+  "states_mc_leaks_interval_zero": 31,
+  "sign_test_p_nominal_vs_interval": 1.6543612251060553e-24
+}

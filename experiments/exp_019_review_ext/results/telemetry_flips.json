@@ -1,0 +1,33 @@
+{
+  "n_cases": 7500,
+  "drop50": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  },
+  "drop80": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  },
+  "bias05": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  },
+  "bias10": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  },
+  "lag1": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  },
+  "nopmu30": {
+    "flipped_cases": 0,
+    "clean_releases_name_rejects": 0,
+    "name_releases_clean_rejects": 0
+  }
+}

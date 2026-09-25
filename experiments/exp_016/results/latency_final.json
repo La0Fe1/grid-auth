@@ -1,0 +1,18 @@
+{
+  "protocol": "median of 5 batches x 200 reps, warmup, single session",
+  "rte_case14_realistic": {
+    "nom": 0.038,
+    "cf": 0.179,
+    "mc": 4.501
+  },
+  "icaps_2021": {
+    "nom": 0.076,
+    "cf": 0.531,
+    "mc": 8.543
+  },
+  "idf_2023": {
+    "nom": 4.185,
+    "cf": 5.971,
+    "mc": 414.054
+  }
+}
